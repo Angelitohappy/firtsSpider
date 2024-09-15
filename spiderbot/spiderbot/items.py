@@ -9,4 +9,8 @@ import scrapy
 class SpiderbotItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    nameWeb = scrapy.Field()
+    url = scrapy.Field()
+    modification_date = scrapy.Field()
+    size = scrapy.Field()
+
